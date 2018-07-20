@@ -4502,3 +4502,8 @@ body {
     margin-bottom: 0px;
     padding-top: 0px;
 }
+
+
+.video {position:relative;padding-bottom:56.25%;/*пропорции видео 16:9 */padding-top:25px;height:0;}
+
+.video iframe {position:absolute;top:0;left:15%;width:70%;height:70%;}
